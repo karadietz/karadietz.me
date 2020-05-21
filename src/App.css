@@ -23,11 +23,7 @@
   font-size: calc(8px + 2vmin);
   color: rgb(19, 75, 38);
   height: 1000px;
-  /* overflow-y: scroll; */
   overflow: auto;
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
 }
 
 .App-link {
@@ -48,12 +44,10 @@
   width: 40%;
   padding: 1px;
   text-align: center;
-  /* overflow-y: scroll; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* margin-bottom: 100px; */
 }
 
 .button:hover {
@@ -72,13 +66,10 @@
   text-decoration: none;
   white-space: nowrap;
   color: rgb(255, 255, 255);
-  
   background-color: rgb(27, 27, 27);
-
   transition: color 2s ease-out;
   background-clip: padding-box; /* Fix bleeding */
   border-radius: 3px;
-  
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -95,13 +86,4 @@
 
 .bold {
   font-weight: bold;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
