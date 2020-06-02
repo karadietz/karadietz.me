@@ -4,7 +4,6 @@ import './App.css';
 class SocialButton extends React.Component {
   handleClick(url) {
     window.open(url, "_blank") //to open new page
-    // window.open("https://github.com/karadietz", "_blank") //to open new page
   }
 
   render() {
@@ -32,10 +31,9 @@ function App() {
           <div className="divider"/>
           <SocialButton title="LinkedIn" url="https://www.linkedin.com/in/kara-dietz/"/>
           <div className="divider"/>
-          {/* <a className= "button" href="./Kara_Dietz_Resume.pdf" target="_blank">Resume</a> */}
           <SocialButton title="Resume" url="./Kara_Dietz_Resume.pdf"/>
           <div className="divider"/>
-          <SocialButton title="Github" url="https://github.com/karadietz"/>
+          <SocialButton title="GitHub" url="https://github.com/karadietz"/>
           <h6>I'm still exploring where exactly my interests lie in software engineering, but I would love to get more involved in mobile development, gain exposure to more levels of the stack, continue developing my infrastructure skills, and maybe even dabble with design!</h6>
           <h6>🌱 Environmental sustainability is one of my greatest values, and I hope to contribute my tech skills towards creating sustainable solutions for society.</h6>
         </div>
